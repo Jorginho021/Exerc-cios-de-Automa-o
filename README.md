@@ -1,7 +1,7 @@
 # Exerc-cios-de-Automa-o
 
 
-Exercício 1 — O Caos no Servidor da Escola
+EXERCICO 1 — O Caos no Servidor da Escola
 
 #!/bin/bash
 
@@ -69,7 +69,6 @@ for arquivo in "$DIR"/*; do
     fi
 
 done
-
 # Espaço depois da limpeza
 depois=$(du -sb "$DIR" | cut -f1)
 
@@ -98,7 +97,7 @@ echo "Relatório salvo em: $relatorio"
 
 
 
-Exercício 2 — Backup Noturno que Nunca Acontece
+EXERCICIO 2 — Backup Noturno que Nunca Acontece
 
 
 #!/bin/bash
@@ -126,7 +125,7 @@ echo "Tamanho: $TAMANHO"
 echo "Destino: $DESTINO"
 echo 
 
-Exercício 3 — 500 Alunos para Cadastrar
+EXERCICIO 3 — 500 Alunos para Cadastrar
 #!/bin/bash
 
 CSV="alunos.csv"
@@ -162,8 +161,7 @@ fi
 
 done
 
-
-Exercício 4 — Logs que Ninguém Lê
+EXERCICIO 4 — Logs que Ninguém Lê
 
 #!/bin/bash
 
@@ -210,7 +208,7 @@ fi
 echo "Relatório salvo em $REL"
 
 
-Exercício 5 — Servidor Que Ninguém Monitora
+EXERCICIO 5 — Servidor Que Ninguém Monitora
 
 #!/bin/bash
 
@@ -241,7 +239,7 @@ fi
 echo "$DATA $STATUS CPU=${CPU}% RAM=${RAM}% DISCO=${DISCO}% PROC=$PROC" >> "$LOG"
 
 
-⭐ Exercício para Avaliação — A Virada de Mês que Travava a Empresa
+⭐ EXERCICIO para Avaliação — A Virada de Mês que Travava a Empresa
 
 #!/bin/bash
 
